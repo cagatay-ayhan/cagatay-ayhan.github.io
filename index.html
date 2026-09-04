@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Academic homepage" />
-    <title>Cagatay Ayhan</title>
+    <meta name="description"
+        content="Cagatay Ayhan is a Biomathematics Ph.D. candidate working in topological data analysis, geometry, machine learning, and scientific data analysis." />
+    <title>Cagatay Ayhan | Topological Data Analysis and Data Science</title>
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -14,6 +15,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- If you prefer system fonts only, remove the next line -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YNZYW269SM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YNZYW269SM');
+    </script>
 </head>
 
 <body>
@@ -28,7 +38,10 @@
 
             <nav class="nav">
                 <a href="#about">About</a>
+                <a href="#experience">Experience</a>
                 <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="#talks">Talks</a>
                 <a href="#teaching">Teaching</a>
                 <a href="#contact">Contact</a>
             </nav>
@@ -40,23 +53,28 @@
         <section class="hero" id="about">
             <div class="hero-grid">
                 <div>
-                    <h1> Welcome to my webpage!</h1>
+                    <h1>Mathematics Ph.D. Candidate and Data Scientist</h1>
                     <p class="lead">
-                        I am a PhD candidate in Biomathematics at Florida State University, advised by Tom Needham. My
-                        research spans both the theoretical and applied aspects of Topological Data Analysis. Looking
-                        ahead, I aim to pursue a research or data scientist role, with a focus on developing and
-                        applying geometric and topological methods to challenging problems in data science.
+                        <strong>I am currently seeking postdoctoral and industry research opportunities beginning in
+                            Summer or Fall 2027.</strong> I am a Ph.D. candidate in Biomathematics at Florida State
+                        University, advised by Tom Needham. My work develops and applies methods from topological data
+                        analysis, geometry, and machine learning to scientific data, including neuroscience and
+                        materials science. I welcome inquiries about postdoctoral research and industry roles in data
+                        science, applied science, and related quantitative fields.
                     </p>
 
                     <div class="button-row">
-                        <a class="button primary" href="assets/cagatay_CV.pdf">CV</a>
+                        <a class="button primary" href="assets/cagatay_CV.pdf">Academic CV</a>
+                        <a class="button primary" href="assets/Resume.pdf">Professional Résumé</a>
                         <a class="button" href="https://scholar.google.com/citations?user=woCuMd8AAAAJ&hl=en">Google
                             Scholar</a>
                         <a class="button" href="https://github.com/cagatay-ayhan">GitHub</a>
+                        <a class="button" href="https://www.linkedin.com/in/cagatay-ayhan">LinkedIn</a>
                     </div>
 
                     <p class="meta">
-                        Interests: Topological Data Analysis, Metric Geometry, Optimal Transport, Data Science
+                        Interests: Topological Data Analysis, Optimal Transport, Machine Learning, Deep Learning
+        
                     </p>
                 </div>
 
@@ -69,6 +87,31 @@
                     </div>
                 </aside>
 
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section" id="experience">
+            <div class="section-head">
+                <h2>Research Experience</h2>
+                <p>Topological methods for scientific data.</p>
+            </div>
+
+            <div class="card service-card">
+                <ul class="clean-list">
+                    <li>
+                        <strong>Research Intern, Georgia Tech Research Institute</strong><br />
+                        Explored applications of topological data analysis to materials science under the supervision
+                        of Dr. Branden Stone. The Summer 2026 internship has concluded, and the research collaboration
+                        is ongoing.
+                        <span class="service-meta">Atlanta, GA · Summer 2026</span>
+                    </li>
+                    <li>
+                        <strong>Research Assistant, Florida State University</strong><br />
+                        Supported by NSF Grant DMS-2324962.
+                        <span class="service-meta">Spring 2026 · Summer 2025 · Fall and Summer 2024</span>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -106,6 +149,77 @@
                     </article>
 
                 </div>
+            </div>
+        </section>
+
+        <!-- DATA SCIENCE PROJECTS -->
+        <section class="section" id="projects">
+            <div class="section-head">
+                <h2>Projects</h2>
+                <p>Selected personal and collaborative work in TDA and data science.</p>
+            </div>
+
+            <div class="grid projects-grid">
+                <article class="card">
+                    <h3>Visual TDA</h3>
+                    <p><strong>Personal project</strong><br />
+                        Interactive visualizations for persistent homology and related ideas in topological data
+                        analysis. The demonstrations were used as an interactive companion to my neural spike-train
+                        research paper.</p>
+                    <div class="tags">
+                        <span class="tag">Topological Data Analysis</span>
+                        <span class="tag">Persistent Homology</span>
+                        <span class="tag">Interactive Visualization</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://cagatay-ayhan.github.io/Visual-TDA/docs/PH_demos/persistent_barcode_animations.html">Live demonstrations</a>
+                        <a href="https://github.com/cagatay-ayhan/Visual-TDA/tree/main">GitHub</a>
+                        <a href="https://arxiv.org/abs/2512.08637">Related paper</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Decoding Human Activity</h3>
+                    <p><strong>Erdős Institute · August 2025</strong><br />
+                        A collaborative machine-learning project focused on analyzing human-activity data.</p>
+                    <div class="tags">
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Data Analysis</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/eckrcm/Decoding-Human-Activity-Erdos-Summer-2025">View project on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Tallahassee Crime Map</h3>
+                    <p><strong>Erdős Institute · May 2024</strong><br />
+                        Analyzed Tallahassee crime data and explored crime-heatmap prediction using geospatial analysis
+                        and machine learning.</p>
+                    <div class="tags">
+                        <span class="tag">Geospatial Data</span>
+                        <span class="tag">scikit-learn</span>
+                        <span class="tag">GAN</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/mao1756/tlhcrimemap">View project on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Near Earth Objects</h3>
+                    <p><strong>Erdős Institute · December 2023</strong><br />
+                        A collaborative data-science project analyzing scientific data on near-Earth objects.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Scientific Data</span>
+                        <span class="tag">Machine Learning</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/munawarali93/NASA-Near-Earth-Objects">View project on GitHub</a>
+                    </div>
+                </article>
             </div>
         </section>
 
@@ -169,28 +283,38 @@
 
         </section>
 
-        <!-- SERVICE -->
-        <section class="section" id="service">
+        <!-- CONFERENCES -->
+        <section class="section" id="conferences">
             <div class="section-head">
-                <h2>Service</h2>
-                <p>Professional and community contributions.</p>
+                <h2>Conferences &amp; Workshops</h2>
+                <p>Selected recent participation.</p>
             </div>
 
             <div class="card service-card">
                 <ul class="clean-list">
                     <li>
-                        <strong>Co-organizer</strong>, with Tom Needham and Martin Bauer, Special Session on
-                        <em>Geometric Methods for Data Science</em>
-                        <!-- <span class="upcoming">Upcoming</span><br /> -->
-                         <br />
-                        2026 Spring Southeastern Sectional Meeting of the American Mathematical Society<br />
-                        Georgia Southern University, Armstrong Campus — Savannah, GA<br />
-                        <span class="service-meta">March 28–29, 2026</span>
+                        <strong>Graph Based Methods in Topological Data Analysis</strong><br />
+                        Michigan State University, STEM Building, East Lansing, MI
+                        <span class="service-meta">July 27–29, 2026</span>
+                    </li>
+                    <li>
+                        <strong>AMS 2026 Spring Southeastern Sectional Meeting</strong><br />
+                        Georgia Southern University, Armstrong Campus, Savannah, GA
+                        <span class="service-meta">March 2026</span>
+                    </li>
+                    <li>
+                        <strong>UF–FSU Topology and Geometry Meeting</strong><br />
+                        University of Florida, Gainesville, FL
+                        <span class="service-meta">January 2026</span>
+                    </li>
+                    <li>
+                        <strong>Topological Data Analysis Conference 2025</strong><br />
+                        University of Missouri, Columbia, MO
+                        <span class="service-meta">November 2025</span>
                     </li>
                 </ul>
             </div>
         </section>
-
 
         <!-- TEACHING -->
         <section class="section" id="teaching">
@@ -205,6 +329,7 @@
                     <li>
                         <strong>Course Instructor</strong>
                         <ul>
+                            <li>MAS3105 — Applied Linear Algebra (Fall 2026, Summer 2026)</li>
                             <li>MAC2313 — Calculus with Analytic Geometry III (Fall 2025)</li>
                             <li>MAC2312 — Calculus with Analytic Geometry II (Spring 2025)</li>
                             <li>MAC2311 — Calculus with Analytic Geometry I (Spring 2024)</li>
@@ -231,20 +356,30 @@
                     <li>
                         <strong>Grader</strong>
                         <ul>
-                            <li>MAC5301, MAC2302 (Spring 2022, Fall 2021)</li>
+                            <li>MAC3301, MAC2302 (Spring 2022, Fall 2021)</li>
                         </ul>
                     </li>
 
+                </ul>
+            </div>
+        </section>
+
+        <!-- SERVICE -->
+        <section class="section" id="service">
+            <div class="section-head">
+                <h2>Service</h2>
+                <p>Professional and community contributions.</p>
+            </div>
+
+            <div class="card service-card">
+                <ul class="clean-list">
                     <li>
-                        <strong>Research Assistant</strong>
-                        <ul>
-                            <li>
-                                Supported by NSF Grant DMS-2324962
-                                (Summer 2024, Fall 2024, Summer 2025, Spring 2026)
-                            </li>
-                        </ul>
+                        <strong>Co-organizer</strong>, with Tom Needham and Martin Bauer, Special Session on
+                        <em>Geometric Methods for Data Science</em><br />
+                        2026 Spring Southeastern Sectional Meeting of the American Mathematical Society<br />
+                        Georgia Southern University, Armstrong Campus — Savannah, GA<br />
+                        <span class="service-meta">March 28–29, 2026</span>
                     </li>
-
                 </ul>
             </div>
         </section>
@@ -260,7 +395,7 @@
                 <div class="contact-row">
                     <div><span class="label">Email</span><a href="mailto:hca21a@fsu.edu">hca21a@fsu.edu</a>
                     </div>
-                    <div><span class="label">Office</span><span>MCH, 402F</span></div>
+                    <div><span class="label">Office</span><span>MCH, 401B</span></div>
                 </div>
             </div>
         </section>
@@ -275,9 +410,9 @@
     </main>
 
     <script>
-        // Tiny, optional UX: current year + last updated stamp
+        // Current year and the date of the most recent content revision
         document.getElementById("year").textContent = new Date().getFullYear();
-        document.getElementById("last-updated").textContent = new Date().toISOString().slice(0, 10);
+        document.getElementById("last-updated").textContent = "September 2026";
     </script>
 </body>
 
